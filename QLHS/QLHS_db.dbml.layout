@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DataClasses1">
+  <DataContextMoniker Name="/QLHS_dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7911c108-86af-4dc5-b568-1fc14b3203eb" absoluteBounds="1.25, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QLHS_dbDataContext/HocSinh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e3eff03-3eb3-4324-8089-5f20c79950ce" absoluteBounds="1.2649999999999997, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="be1070c0-5729-445c-ab7c-94918eb8ace1" absoluteBounds="3.625, 2, 2, 1.3862939453125">
+      <DataClassMoniker Name="/QLHS_dbDataContext/Lop" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bb7877bf-a086-454c-b166-5ac249f0c4e1" absoluteBounds="3.6399999999999997, 2.46, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.625 : 2.23159912109375); (3.25 : 2.23159912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLHS_dbDataContext/Lop/Lop_HocSinh" />
+      <nodes>
+        <classShapeMoniker Id="be1070c0-5729-445c-ab7c-94918eb8ace1" />
+        <classShapeMoniker Id="7911c108-86af-4dc5-b568-1fc14b3203eb" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
